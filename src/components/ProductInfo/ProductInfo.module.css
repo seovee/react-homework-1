@@ -3,10 +3,16 @@
   background-color: aquamarine;
   height: 183px;
   border: 1px solid #dee0e3;
+  position: relative;
+  overflow: hidden;
 }
 
 .ProductImageContainer img {
-  width: 100%;
-  height: 183px;
+  width: 103%;
+  height: 110%;
   object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

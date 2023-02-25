@@ -9,7 +9,8 @@ export default function ProductInfo(Product) {
         <img src={ProductImage} alt={Product.alt} />
       </div>
       <div>
-        <h2>래피젠 코로나 자가검사키트 2개입X1박스</h2>
+        <span>래피젠 코로나 자가검사키트</span>
+        <span>2개입X1박스</span>
       </div>
       <div>
         <p>88%</p>
