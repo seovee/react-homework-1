@@ -5,5 +5,5 @@
 **[🧑🏻‍💻 과제 - StackBlitz Link](https://stackblitz.com/edit/react-yartg2)**
 
 - [X] ⭕️ Component 폴더구성
-- [X] ⭕️ JSX, Module.css로 구성한 HTML&CSS 
+- [X] ⭕️ JSX, Module.css로 구성한 HTML&CSS(반응형 일부 구현)
 - [ ] ❌ React의 **Props, State**부분, 아직 기능구현을 못했습니다
