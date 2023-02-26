@@ -2,7 +2,7 @@
 
 ### 김진섭 - 리액트 과제
 
-**[🧑🏻‍💻 Edit on StackBlitz](https://stackblitz.com/edit/react-yartg2)**
+**[🧑🏻‍💻 과제 - StackBlitz Link](https://stackblitz.com/edit/react-yartg2)**
 
 - [X] ⭕️ Component 폴더구성
 - [X] ⭕️ JSX, Module.css로 구성한 HTML&CSS 
