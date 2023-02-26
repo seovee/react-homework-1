@@ -8,15 +8,19 @@ export default function ProductInfo(Product) {
       <div className={Styles.ProductImageContainer}>
         <img src={ProductImage} alt={Product.alt} />
       </div>
-      <div>
-        <span>래피젠 코로나 자가검사키트</span>
-        <span>2개입X1박스</span>
+      <div className={Styles.ProductNameContainer}>
+        <figcaption className={Styles.ProductName}>
+          <span>래피젠 코로나 자가검사키트</span>
+          <span>2개입X1박스</span>
+        </figcaption>
       </div>
-      <div>
-        <p>88%</p>
-        <p>56,760원</p>
-        <p>6,370원</p>
-      </div>
+      <ul className={Styles.ProductPriceContainer}>
+        <li className={Styles.PriceSale}>88%</li>
+        <li className={Styles.PriceOriginal}>
+          <span className={Styles.PriceBefore}>56,760원</span>
+          <span className={Styles.PriceAfter}>6,370원</span>
+        </li>
+      </ul>
     </section>
   );
 }
