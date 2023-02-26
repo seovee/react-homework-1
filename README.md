@@ -4,6 +4,6 @@
 
 **[🧑🏻‍💻 Edit on StackBlitz](https://stackblitz.com/edit/react-yartg2)**
 
-- [X] Component 폴더구성
-- [X] JSX, Module.css로 구성한 HTML&CSS 
-- [ ] React의 **Props, State**로 기능구현..좀 더 공부가 필요합니다.
+- [X] ⭕️ Component 폴더구성
+- [X] ⭕️ JSX, Module.css로 구성한 HTML&CSS 
+- [ ] ❌ React의 **Props, State**부분, 아직 기능구현을 못했습니다
