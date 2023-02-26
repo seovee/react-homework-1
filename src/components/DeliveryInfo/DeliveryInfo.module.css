@@ -1,0 +1,37 @@
+.DeliveryInfo {
+  margin-top: 16px;
+  height: 100%;
+  font-size: 14px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dee0e3;
+}
+
+.DeliveryInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.DeliveryInfo1 {
+  display: flex;
+  gap: 5px;
+}
+
+.DeliveryInfo1 span:nth-child(2) {
+  color: #dee0e3;
+}
+
+.DeliveryInfo1 span:nth-child(3) {
+  color: #333333;
+  font-weight: 700;
+}
+
+.DeliveryInfo1 span:nth-child(4) {
+  color: #6b90dc;
+  font-weight: 700;
+}
+
+.DeliveryInfo2 {
+  color: #999999;
+  line-height: 100%;
+}
