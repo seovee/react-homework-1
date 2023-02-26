@@ -1,5 +1,6 @@
 import React from 'react';
 import Styles from './ProductPrice.module.css';
+import PriceQuestion from '../../assets/svg/expand=false.svg';
 
 export default function ProductPrice() {
   return (
@@ -7,7 +8,7 @@ export default function ProductPrice() {
       <div className={Styles.ProductPriceContainer}>
         <div className={Styles.ProductPriceTitle}>
           <span>총 상품 금액</span>
-          <img src="" alt="" />
+          <img src={PriceQuestion} alt="" />
         </div>
         <div className={Styles.ProductPriceContent}>
           <span>총 수량 1개 |</span>
