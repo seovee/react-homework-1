@@ -18,6 +18,10 @@
   font-weight: 700;
 }
 
+.ProductPriceTitle {
+  cursor: pointer;
+}
+
 .ProductPriceContent {
   display: flex;
   height: 100%;

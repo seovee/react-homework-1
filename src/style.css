@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 
-html {
+body {
+  margin: 0 auto;
+  width: clamp(320px, 100vw, 600px);
+  display: block;
   padding: 16px;
 }
 
