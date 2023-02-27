@@ -4,14 +4,25 @@
   border-bottom: 1px solid #dee0e3;
 }
 
-.CounterButtonContainer button {
-  border: 1px solid #f1f2f4;
+.CounterButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   height: 34px;
 }
 
+.CounterButtonContainer button {
+  border: 1px solid #dee0e3;
+  height: 100%;
+  width: 34px;
+}
+
 .CounterButtonContainer span {
-  display: inline-block;
-  width: 100%;
+  width: 34px;
+  height: 100%;
   padding: 10px;
-  border: 1px solid #f1f2f4;
+  text-align: center;
+  line-height: 100%;
+  border-top: 1px solid #dee0e3;
+  border-bottom: 1px solid #dee0e3;
 }

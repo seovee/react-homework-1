@@ -10,16 +10,12 @@
 }
 
 .ProductPriceTitle {
+  cursor: pointer;
   font-size: 14px;
   display: flex;
   height: 100%;
-  align-items: center;
   gap: 5px;
   font-weight: 700;
-}
-
-.ProductPriceTitle {
-  cursor: pointer;
 }
 
 .ProductPriceContent {
