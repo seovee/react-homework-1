@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import Styles from './CounterButton.module.css';
 
-function CounterButton(props) {
-  const [count, setCount] = useState(0);
-
+function CounterButton({ count, setCount }) {
   const minusButton = () => {
     setCount(count - 1);
   };

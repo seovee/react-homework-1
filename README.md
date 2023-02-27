@@ -6,4 +6,5 @@
 
 - [X] ⭕️ Component 폴더구성
 - [X] ⭕️ JSX, Module.css로 구성한 HTML&CSS(반응형 일부 구현)
-- [ ] ❌ React의 **Props, State**부분, 아직 기능구현을 못했습니다
+- [X] ⭕️ Counter버튼&버튼기능 추가, 네이버 구매하기 활성화기능 구현(230227)
+- [ ] ❌ 헬프버튼 기능 미구현

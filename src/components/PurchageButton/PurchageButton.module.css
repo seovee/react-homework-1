@@ -14,5 +14,10 @@
 }
 
 .ButtonContainer:hover {
-  background-color: #0AAE4F;
+  background-color: #0aae4f;
+}
+
+.ButtonContainer:disabled {
+  background-color: #dee0e3;
+  cursor: default;
 }

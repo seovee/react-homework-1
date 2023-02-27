@@ -2,7 +2,6 @@ import React from 'react';
 import '../../style.css';
 import ProductInfo from '../ProductInfo/ProductInfo';
 import DeliveryInfo from '../DeliveryInfo/DeliveryInfo';
-import PurchageButton from '../PurchageButton/PurchageButton';
 import ProductPrice from '../ProductPrice/ProductPrice';
 
 export default function App() {
@@ -11,7 +10,6 @@ export default function App() {
       <ProductInfo />
       <DeliveryInfo />
       <ProductPrice />
-      <PurchageButton />
     </>
   );
 }
