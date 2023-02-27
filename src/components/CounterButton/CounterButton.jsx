@@ -3,7 +3,11 @@ import Styles from './CounterButton.module.css';
 
 function CounterButton({ count, setCount }) {
   const minusButton = () => {
-    setCount(count - 1);
+    if (count === 0) {
+      return;
+    } else {
+      setCount(count - 1);
+    }
   };
 
   const plusButton = () => {
