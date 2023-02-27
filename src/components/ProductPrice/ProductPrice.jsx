@@ -5,9 +5,8 @@ import CounterButton from '../CounterButton/CounterButton';
 import { convertPriceToString } from '../../lib/convertPriceToString.js';
 import PurchageButton from '../PurchageButton/PurchageButton';
 
-
 export default function ProductPrice() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   return (
     <>
